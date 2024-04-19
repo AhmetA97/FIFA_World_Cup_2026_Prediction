@@ -40,7 +40,7 @@ In this work, we compare 9 different modeling approaches for the soccer matches 
 
 __Objective__:
 - Prediction of the winner of an international matches Prediction results are  "Win / Lose / Draw" or "goal difference"
-- Apply the model to predict the result of FIFA world cup 2018.
+- Apply the model to predict the result of FIFA world cup 2022.
 
 
 __Lifecycle__
