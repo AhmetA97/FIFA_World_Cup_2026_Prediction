@@ -105,7 +105,7 @@ python experiment3-WorldCup.py
 7. [Tuning the hyper-parameters of an estimator](http://scikit-learn.org/stable/modules/grid_search.html)
 8. [Validation curves](http://scikit-learn.org/stable/modules/learning_curve.html)
 9. [Understand Bet odd format](https://www.pinnacle.com/en/betting-articles/educational/odds-formats-available-at-pinnacle-sports/ZWSJD9PPX69V3YXZ)
-10. [EURO 2016 bet odd](http://www.oddsportal.com/soccer/europe/euro-2016/results/#/)
+10. [EURO 2020 bet odd](https://checkbestodds.com/football-odds/archive-euro-2020)
 
 # Task List
 __Complete__
