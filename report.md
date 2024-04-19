@@ -259,7 +259,7 @@ __Experiment 2.__ Build classifiers for "Goal Difference" for "World Cup" and "U
  - "lose_3": A wins with 3 or more goal differences
  - "draw_0": Draw
 
-__Experiment 3.__ In addition, we want to test how our trained model in __Experiment 2__ to predict the "Goal Difference" and "Win/Draw/Lose" of matches in World Cup 2018.
+__Experiment 3.__ In addition, we want to test how our trained model in __Experiment 2__ to predict the "Goal Difference" and "Win/Draw/Lose" of matches in World Cup 2022.
 
 ## Models
 __Baseline Model:__
@@ -375,8 +375,8 @@ In conclusion, odd-based features from bet bookmarkers are reliable to determine
 
 # Data Source
 The dataset are from all international matches from 2000 - 2018, results, bet odds, ranking, squad strengths
-1. [FIFA World Cup 2018](https://www.kaggle.com/ahmedelnaggar/fifa-worldcup-2018-dataset/data)
-2. [International match 1872 - 2018](https://www.kaggle.com/martj42/international-football-results-from-1872-to-2017/data)
+1. [FIFA World Cup 2022](https://www.kaggle.com/datasets/ashishmotwani/fifa-world-cup-2022)
+2. [International match 1872 - 2024](https://www.kaggle.com/datasets/martj42/international-football-results-from-1872-to-2017)
 3. [FIFA Ranking through Time](https://www.fifa.com/fifa-world-ranking/ranking-table/men/index.html)
 4. [Bet Odd](https://www.kaggle.com/austro/beat-the-bookie-worldwide-football-dataset/data)
 5. [Bet Odd 2](http://www.oddsportal.com)
@@ -384,7 +384,7 @@ The dataset are from all international matches from 2000 - 2018, results, bet od
 7. [Squad Strength - FIFA index](https://www.fifaindex.com/)
 
 
-[1]: https://www.kaggle.com/ahmedelnaggar/fifa-worldcup-2018-dataset/data
+[1]: https://www.kaggle.com/datasets/ashishmotwani/fifa-world-cup-2022
 [2]: https://www.kaggle.com/austro/beat-the-bookie-worldwide-football-dataset/data
 [3]: http://www.fifa.com/fifa-world-ranking/associations/association=usa/men/index.html
 [4]: https://www.kaggle.com/austro/beat-the-bookie-worldwide-football-dataset/data
@@ -401,7 +401,7 @@ The dataset are from all international matches from 2000 - 2018, results, bet od
 7. [Tuning the hyper-parameters of an estimator](http://scikit-learn.org/stable/modules/grid_search.html)
 8. [Validation curves](http://scikit-learn.org/stable/modules/learning_curve.html)
 9. [Understand Bet odd format](https://www.pinnacle.com/en/betting-articles/educational/odds-formats-available-at-pinnacle-sports/ZWSJD9PPX69V3YXZ)
-10. [EURO 2016 bet odd](http://www.oddsportal.com/soccer/europe/euro-2016/results/#/)
+10. [EURO 2020 bet odd](https://www.oddsportal.com/football/europe/euro-2020/results/)
 
 # Appendix
 
@@ -689,9 +689,9 @@ LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
 [cm_lgbm]: pic/appendix/ex2/cm-lgbm.png
 [roc_lgbm]: pic/appendix/ex2/cm-lgbm.png
 
-__World Cup 2018 result__
+__World Cup 2022 result__
 
-### World Cup 2018
+### World Cup 2022
 Now the model is applying for World Cup 2018 in Russia with __simulation time = 100 000__.
 
 __Result Explanation:__
