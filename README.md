@@ -94,6 +94,10 @@ python experiment1-W-D-L.py
 python experiment2-GoalDiff.py
 python experiment3-WorldCup.py
 ```
+K-Nearest Neighbor (KNN)
+K-Nearest Neighbor (KNN) was the second model trained. Necessary tests were applied to determine the K value and the highest accuracy value was obtained when "K=48". Next, the model was trained with cross validation. And the error rate table was extracted. Also confusion matrix and certain statistics were calculated and printed.
+
+
 
 # Reference
 1. [A machine learning framework for sport result prediction](https://www.sciencedirect.com/science/article/pii/S2210832717301485)
