@@ -45,7 +45,7 @@ __Objective__:
 
 __Lifecycle__
 
-![](pic/life_cycle.png)
+![](/pic/life_cycle.png)
 
 # Data
 __Data__: The dataset are from all international matches from 2000 - 2018, results, bet odds, ranking, squad strengths.
