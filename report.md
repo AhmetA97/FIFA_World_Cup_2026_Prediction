@@ -118,13 +118,13 @@ __Imbalance of data__
 
 __Correlation between variables__
 
-First we draw correlation matrix of large dataset which contains all matches from 2005-2018 with features group 1,2 and 3
+First we draw correlation matrix of large dataset which contains all matches from 2005-2022 with features group 1,2 and 3
 ![](pic/EDA/corr_matrix.png)
 
 In general, features are not correlated. "odd_win_diff" is quite negatively correlated with "form_diff_win" (-0.5), indicating that form of two teams reflex belief of odd bookmarkers on winners. One more interesting point is when difference of bet odd increases we would see more goal differences (correlation score = -0.6).
 ![](pic/EDA/odd-vs-goal.png)
 
-Second, we draw correlation matrix of small dataset which contains all matches from World Cup 2010, 2014, 2018 and EURO 2012, 2016
+Second, we draw correlation matrix of small dataset which contains all matches from World Cup 2014, 2018, 2022 and EURO 2016, 2020
 ![](pic/EDA/corr_matrix_full.png)
 
 Overall rating is just an average of "attack", "defense" and "midfield" index therefore we see high correlation between them. In addition, some of new features of squad strength show high correlation for example "FIFA Rank", "Overall rating" and "Difference in winning odd"
@@ -354,7 +354,7 @@ __Experiment 2__ "Goal Difference"
 
 In experiment 2, "Squad Strength" based Decision Tree tends to superior to other classifiers.
 
-__Experiment 3__ "Goal Difference" and "Win/Draw/Lose" in World Cup 2018
+__Experiment 3__ "Goal Difference" and "Win/Draw/Lose" in World Cup 2022
 
 |           Model         |"Goal Difference" Accuracy| "Win/Draw/Lose" Accuracy (%)| F1 - micro average |
 |:-----------------------:|:------------------------:|:---------------------------:|:------------------:|
