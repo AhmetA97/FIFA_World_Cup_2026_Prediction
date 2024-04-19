@@ -18,7 +18,7 @@ __Lifecycle__
 ![](https://github.com/AhmetA97/FIFA_World_Cup_2026_Prediction/blob/main/report.md)
 
 # Report
-Check the [Full Report](https://github.com/mrthlinh/FIFA-World-Cup-Prediction/blob/master/report/report.md) to gain more insight about this Project. The report contains:  
+Check the [Full Report](https://github.com/AhmetA97/FIFA_World_Cup_2026_Prediction/blob/main/report.md) to gain more insight about this Project. The report contains:  
 - Exploratory Data Analysis: Investigate correlations, importance of features to results, hypothesis interesting
 - Methodology: How I carried out this project, which experiments I did.
 - Models: baseline model, logistic regression, random forest, gradient boosting tree, ADA boost tree, Neural Network.
@@ -34,8 +34,8 @@ Check the [Full Report](https://github.com/mrthlinh/FIFA-World-Cup-Prediction/bl
 # Data
 ### Data Source
 The dataset are from all international matches from 2000 - 2018, results, bet odds, ranking, squad strengths
-1. [FIFA World Cup 2018](https://www.kaggle.com/ahmedelnaggar/fifa-worldcup-2018-dataset/data)
-2. [International match 1872 - 2018](https://www.kaggle.com/martj42/international-football-results-from-1872-to-2017/data)
+1. [FIFA World Cup 2022](https://www.kaggle.com/datasets/ashishmotwani/fifa-world-cup-2022)
+2. [International match 1872 - 2024](https://www.kaggle.com/datasets/martj42/international-football-results-from-1872-to-2017)
 3. [FIFA Ranking through Time](https://www.fifa.com/fifa-world-ranking/ranking-table/men/index.html)
 4. [Bet Odd](https://www.kaggle.com/austro/beat-the-bookie-worldwide-football-dataset/data)
 5. [Bet Odd 2](http://www.oddsportal.com)
