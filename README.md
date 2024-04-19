@@ -1,7 +1,7 @@
 # Project Description
 __Objective__:
 - Prediction of the winner of an international matches Prediction results are  "Win / Lose / Draw" or "goal difference"
-- Apply the model to predict the result of FIFA world cup 2018.
+- Apply the model to predict the result of FIFA world cup 2026.
 
 __Data__: Data are assembled from multiple sources, most of them are from Kaggle, others come from FIFA website / EA games.
 
@@ -15,7 +15,7 @@ Feature list reflects those factors.
 
 __Lifecycle__
 
-![](https://github.com/mrthlinh/FIFA-World-Cup-Prediction/blob/master/pic/life_cycle.png)
+![](https://github.com/AhmetA97/FIFA_World_Cup_2026_Prediction/blob/main/report.md)
 
 # Report
 Check the [Full Report](https://github.com/mrthlinh/FIFA-World-Cup-Prediction/blob/master/report/report.md) to gain more insight about this Project. The report contains:  
