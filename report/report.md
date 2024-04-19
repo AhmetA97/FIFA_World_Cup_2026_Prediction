@@ -36,17 +36,16 @@
 
 __Abstract__:
 
-In this work, we compare 9 different modeling approaches for the soccer matches and goal difference on all international matches from 2005 - 2017,  FIFA World Cup 2010 - 2014 and FIFA EURO 2012-2016. Within this comparison, while performance of "Win / Draw / Lose" predictions shows not much difference, "Goal Difference" prediction is quite favored to Random Forest and squad-strength based decision tree. We also apply these models in World Cup 2018 and again, Random Forest and Logistic Regression predicts about 33% acccuracy for "Goal Difference" and about 57% for "Win / Draw / Lose". However a simple decision tree based on bet odd and squad-strength are also comparable.
+In this work, we compare 9 different modeling approaches for the soccer matches and goal difference on all international matches from 2005 - 2022,  FIFA World Cup 2018 - 2022 and FIFA EURO 2016-2020. Within this comparison, while performance of "Win / Draw / Lose" predictions shows not much difference, "Goal Difference" prediction is quite favored to Random Forest and squad-strength based decision tree. We also apply these models in World Cup 2018 and again, Random Forest and Logistic Regression predicts about 33% acccuracy for "Goal Difference" and about 57% for "Win / Draw / Lose". However a simple decision tree based on bet odd and squad-strength are also comparable.
 
 __Objective__:
 - Prediction of the winner of an international matches Prediction results are  "Win / Lose / Draw" or "goal difference"
-- Apply the model to predict the result of FIFA world cup 2018.
+- Apply the model to predict the result of FIFA world cup 2026.
 
-__Supervisor__: [Pratibha Rathore](https://www.linkedin.com/in/pratibha-rathore/)
 
 __Lifecycle__
 
-![](https://github.com/mrthlinh/FIFA-World-Cup-Prediction/blob/master/pic/life_cycle.png)
+![](pic/life_cycle.png)
 
 # Data
 __Data__: The dataset are from all international matches from 2000 - 2018, results, bet odds, ranking, squad strengths.
