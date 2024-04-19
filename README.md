@@ -15,7 +15,7 @@ Feature list reflects those factors.
 
 __Lifecycle__
 
-![](https://github.com/AhmetA97/FIFA_World_Cup_2026_Prediction/blob/main/report.md)
+![](https://github.com/AhmetA97/FIFA_World_Cup_2026_Prediction/blob/main/pic/life_cycle.png)
 
 # Report
 Check the [Full Report](https://github.com/AhmetA97/FIFA_World_Cup_2026_Prediction/blob/main/report.md) to gain more insight about this Project. The report contains:  
