@@ -36,30 +36,29 @@
 
 __Abstract__:
 
-In this work, we compare 9 different modeling approaches for the soccer matches and goal difference on all international matches from 2005 - 2017,  FIFA World Cup 2010 - 2014 and FIFA EURO 2012-2016. Within this comparison, while performance of "Win / Draw / Lose" predictions shows not much difference, "Goal Difference" prediction is quite favored to Random Forest and squad-strength based decision tree. We also apply these models in World Cup 2018 and again, Random Forest and Logistic Regression predicts about 33% acccuracy for "Goal Difference" and about 57% for "Win / Draw / Lose". However a simple decision tree based on bet odd and squad-strength are also comparable.
+In this work, we compare 9 different modeling approaches for the soccer matches and goal difference on all international matches from 2005 - 2017,  FIFA World Cup 2018 - 2022 and FIFA EURO 2016-2020. Within this comparison, while performance of "Win / Draw / Lose" predictions shows not much difference, "Goal Difference" prediction is quite favored to Random Forest and squad-strength based decision tree. We also apply these models in World Cup 2022 and again, Random Forest and Logistic Regression predicts about 33% acccuracy for "Goal Difference" and about 57% for "Win / Draw / Lose". However a simple decision tree based on bet odd and squad-strength are also comparable.
 
 __Objective__:
 - Prediction of the winner of an international matches Prediction results are  "Win / Lose / Draw" or "goal difference"
 - Apply the model to predict the result of FIFA world cup 2018.
 
-__Supervisor__: [Pratibha Rathore](https://www.linkedin.com/in/pratibha-rathore/)
 
 __Lifecycle__
 
 ![](/pic/life_cycle.png)
 
 # Data
-__Data__: The dataset are from all international matches from 2000 - 2018, results, bet odds, ranking, squad strengths.
-1. [FIFA World Cup 2018][1]
-2. [International match 1872 - 2018][2]
+__Data__: The dataset are from all international matches from 2000 - 2022, results, bet odds, ranking, squad strengths.
+1. [FIFA World Cup 2022][1]
+2. [International match 1872 - 2024][2]
 3. [FIFA Ranking through Time][3]
 4. [Bet Odd][4]
 5. [Bet Odd 2][5]
 6. [Squad Strength - Sofia][6]
 7. [Squad Strength - FIFA index][7]
 
-[1]: https://www.kaggle.com/ahmedelnaggar/fifa-worldcup-2018-dataset/data
-[2]: https://www.kaggle.com/martj42/international-football-results-from-1872-to-2017/data
+[1]: https://www.kaggle.com/datasets/ashishmotwani/fifa-world-cup-2022
+[2]: https://www.kaggle.com/datasets/martj42/international-football-results-from-1872-to-2017
 [3]: https://www.fifa.com/fifa-world-ranking/ranking-table/men/index.html
 [4]: https://www.kaggle.com/austro/beat-the-bookie-worldwide-football-dataset/data
 [5]: http://www.oddsportal.com
