@@ -6,8 +6,9 @@
 4. [Methodology](#methodology):
     Details about your procedure
 5. [Models](#models)
-6. [Conclusion](#conclusion)
-7. [References](#references)
+6. [Visualisation](#visualisation)
+7. [Conclusion](#conclusion)
+8. [References](#references)
 
 # Introduction
 
