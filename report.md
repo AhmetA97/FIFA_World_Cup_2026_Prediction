@@ -3,13 +3,6 @@
 1. [Introduction](#introduction)
 2. [Data](#data):
 3. [Exploratory Data Analysis](#exploratory-data-analysis):
-    1. Correlation between variables
-    2. How head-to-head matchup history affect the current match?
-    3. How recent performances affect the current match?
-    4. Do strong teams usually win?
-    5. Do young players play better than old one ?
-    6. Is short pass better than long pass ?
-    7. How labels distribute in reduced dimension?
 4. [Methodology](#methodology): Details about your procedure
 5. [Models](#models)
 6. [Conclusion](#conclusion)
