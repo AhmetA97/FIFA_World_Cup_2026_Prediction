@@ -297,52 +297,6 @@ In a multi-class classification setup, micro-average is preferable if you suspec
 - __Area under ROC__: For binary classification, True Positive Rate vs False Positive Rate for all threshold.
 ![](pic/roc_intro.png)
 
-# Results
-
-"Draw / Lose /Win"
-
-|           Model         |10-fold CV accuracy (%)| F1 - micro average | AUROC - micro average |
-|:-----------------------:|:---------------------:|:------------------:|:---------------------:|
-|Odd-based Decision Tree  |59.28|60.22|0.76|
-|H2H-Form based Decision Tree  |51.22|51.52|0.66|
-|Logistic Regression      |59.37|59.87|0.76|
-|Random Forest            |54.40|55.92|0.74|
-|Gradient Boosting tree   |58.60|59.47|0.77|
-|ADA boost tree           |59.08|60.22|0.77|
-|Neural Net               |58.96|58.36|0.77|
-|LightGBM                 |59.49|60.28|0.78|
-
-Results show little improvement between enhanced models and baseline models based on three evaluation criteria: 10-fold cross validation, F1 and Area Under Curve. A simple Odd-based Decision Tree is enough to classify Win/Draw/Lose . However, according to confusion matrix in [Appendix](#appendix), we see that most of classifiers failed to classify "Draw" label, only Random Forest and Gradient Boosting Tree can predict "Draw" label, 74 hits and 29 hits respectively. Furthermore, as we mentioned, there is not much difference of classifiers in other criteria so our recommendation for classify "Win / Draw / Lose" is __"Gradient Boosting Tree"__ and __"Random Forest"__
-
-"Goal Difference"
-
-|           Model         |10-fold CV accuracy (%)| F1 - micro average | AUROC - micro average |
-|:-----------------------:|:---------------------:|:------------------:|:---------------------:|
-|Odd-based Decision Tree  |26.41|25.37|0.62|
-|H2H-Form-based Decision Tree  |16.74|18.94|0.59|
-|Squad-strength-based Decision Tree  |31.64|31.34|0.66|
-|Logistic Regression      |21.39|22.38|0.64|
-|Random Forest            |25.36|25.37|0.60|
-|Gradient Boosting tree   |27.27|16.42|0.58|
-|ADA boost tree           |26.92|16.41|0.59|
-|Neural Net               |22.42|25.37|0.63|
-|LightGBM                 |25.62|20.89|0.57|
-
- "Squad Strength" based Decision Tree tends to superior to other classifiers.
-
- "Goal Difference" and "Win/Draw/Lose" in World Cup 2022
-
-|           Model         |"Goal Difference" Accuracy| "Win/Draw/Lose" Accuracy (%)| F1 - micro average |
-|:-----------------------:|:------------------------:|:---------------------------:|:------------------:|
-|Odd-based Decision Tree              |31.25|48.43|31.25|
-|H2H-Form based Decision Tree         |25.00|34.37|25.00|
-|Squad strength based Decision Tree   |28.12|43.75|28.12|
-|Logistic Regression                  |32.81|57.81|32.81|
-|Random Forest                        |32.81|56.25|32.81|
-|Gradient Boosting tree               |21.87|45.31|21.87|
-|ADA boost tree                       |28.12|51.56|28.12|
-|Neural Net                           |20.31|35.94|20.31|
-|LightGBM                             |32.81|56.25|32.81|
 
 # Conclusion
 
