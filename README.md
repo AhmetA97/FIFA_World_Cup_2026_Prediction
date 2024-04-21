@@ -80,10 +80,7 @@ The dataset are from all international matches from 2000 - 2018, results, bet od
 |game_diff_def_aggr | Squad Strength: difference in Defense Aggression          | [6] |
 |game_diff_def_teamwidth  | Squad Strength: difference in Defense Team Width    | [6] |
 
-# How to Run:
 
-```
-```
 ### K-Nearest Neighbor (KNN)
 K-Nearest Neighbor (KNN) was the second model trained. Necessary tests were applied to determine the K value and the highest accuracy value was obtained when "K=48". Next, the model was trained with cross validation. And the error rate table was extracted. Also confusion matrix and certain statistics were calculated and printed.
 
