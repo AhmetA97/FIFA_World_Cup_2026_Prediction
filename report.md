@@ -12,21 +12,7 @@
     7. How labels distribute in reduced dimension?
 4. [Methodology](#methodology): Details about your procedure
 5. [Models](#models)
-    1. Baseline models
-      - odd-based model
-      - history and form based model
-      - squad-strength-based model
-    2. Enhance models
-      - Logistic Regression
-      - Random Forest
-      - Gradient Boosting tree
-      - ADA boost tree
-      - Neural Network
-      - Light GBM
 6. [Evaluation Criteria](#evaluation-criteria)
-  - F1
-  - 10-fold Cross Validation accuracy
-  - Area under ROC
 7. [Results](#results)
 8. [Conclusion](#conclusion)
 9. [References](#references)
