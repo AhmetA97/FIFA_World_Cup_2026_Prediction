@@ -3,7 +3,8 @@
 1. [Introduction](#introduction)
 2. [Data](#data)
 3. [Exploratory Data Analysis](#exploratory-data-analysis)
-4. [Methodology](#methodology): Details about your procedure
+4. [Methodology](#methodology):
+    Details about your procedure
 5. [Models](#models)
 6. [Conclusion](#conclusion)
 7. [References](#references)
