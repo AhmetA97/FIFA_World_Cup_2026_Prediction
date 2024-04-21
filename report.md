@@ -12,9 +12,8 @@
     7. How labels distribute in reduced dimension?
 4. [Methodology](#methodology): Details about your procedure
 5. [Models](#models)
-6. [Evaluation Criteria](#evaluation-criteria)
-7. [Conclusion](#conclusion)
-8. [References](#references)
+6. [Conclusion](#conclusion)
+7. [References](#references)
 
 # Introduction
 
@@ -277,24 +276,6 @@ Random Forest was the last model trained and was also used as the default model 
 
 ![alt text](https://github.com/AhmetA97/FIFA_World_Cup_2026_Prediction/blob/main/pic/KNN/RF4.png)
 
-## Evaluation Criteria
-Models are evaluated on these criteria which are carried out for each label "win", "lose" and "draw"
-- __Precision__: Among our prediction of "True" value, how many percentage we hit?, the higher value, the better prediction
-
-- __Recall__: Among actual "True" value, how many percentage we hit?, the higher value, the better prediction
-
-- __F1__: A balance of Precision and Recall, the higher value, the better prediction, there are 2 types of F1
-  - __F1-micro__: compute F1 by aggregating True Positive and False Positive or each class
-  - __F1-macro__: compute F1 independently for each class and take the average (all classed equally)
-
-![](pic/micro-vs-macro-f1.PNG)
-
-In a multi-class classification setup, micro-average is preferable if you suspect there might be class imbalance (i.e you may have many more examples of one class than of other classes). In this case, we should stick with F1-micro
-
-- __10-fold cross validation accuracy__: Mean of accuracy for each cross-validation fold. This is a reliable estimation of test error of model evaluation (no need to split to train and test)
-
-- __Area under ROC__: For binary classification, True Positive Rate vs False Positive Rate for all threshold.
-![](pic/roc_intro.png)
 
 
 # Conclusion
