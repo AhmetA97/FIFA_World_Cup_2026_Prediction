@@ -269,6 +269,9 @@ Random Forest was the last model trained and was also used as the default model 
 
 ![alt text](https://github.com/AhmetA97/FIFA_World_Cup_2026_Prediction/blob/main/pic/KNN/RF4.png)
 
+## Visualisation
+
+https://github.com/AhmetA97/FIFA_World_Cup_2026_Prediction/blob/main/data_visualization_best_lineup.ipynb
 
 # Conclusion
 
