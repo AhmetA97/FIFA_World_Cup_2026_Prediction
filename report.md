@@ -7,8 +7,9 @@
     Details about your procedure
 5. [Models](#models)
 6. [Visualisation](#visualisation)
-7. [Conclusion](#conclusion)
-8. [References](#references)
+7. [Prediction of winner](#prediction-of-winner)
+8. [Conclusion](#conclusion)
+9. [References](#references)
 
 # Introduction
 
@@ -270,6 +271,10 @@ Random Forest was the last model trained and was also used as the default model 
 ![alt text](https://github.com/AhmetA97/FIFA_World_Cup_2026_Prediction/blob/main/pic/KNN/RF3.png)
 
 ![alt text](https://github.com/AhmetA97/FIFA_World_Cup_2026_Prediction/blob/main/pic/KNN/RF4.png)
+
+## Prediction of winner
+
+https://github.com/AhmetA97/FIFA_World_Cup_2026_Prediction/blob/main/predict_world_cup.ipynb
 
 ## Visualisation
 
