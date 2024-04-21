@@ -243,35 +243,40 @@ In this work, we do two main experiments, for each experiment we follow these pr
 
 _
 ## Models
-__Baseline Model:__
-In EDA part, we already investigate importance of features and see that odd, history, form and squad strength are all significant. Now we divide features into three groups: odd, h2h-form, squad strength and build "Baseline Models" based on these groups. To keep the baseline model simple, we set hyper-parameter of Decision Tree maximum depth = 2, maximum leaf nodes = 3
 
-1. __Odd-based model:__
+### K-Nearest Neighbor (KNN)
+K-Nearest Neighbor (KNN) was the second model trained. Necessary tests were applied to determine the K value and the highest accuracy value was obtained when "K=48". Next, the model was trained with cross validation. And the error rate table was extracted. Also confusion matrix and certain statistics were calculated and printed.
 
- |
-|:------------:|:------------:|
-| ![alt text][tree_odd_1] | ![alt text][tree_odd_2]  |
+<img alt="alt text" src="https://github.com/AhmetA97/FIFA_World_Cup_2026_Prediction/blob/main/pic/KNN/KNN1.png"/>
 
-[tree_odd_1]:pic/ex1/tree-odd.png
-[tree_odd_2]:pic/ex2/tree-odd.png
+![alt text](https://github.com/AhmetA97/FIFA_World_Cup_2026_Prediction/blob/main/pic/KNN/KNN2.png)
 
-2. __History-Form-based model:__
+![alt text](https://github.com/AhmetA97/FIFA_World_Cup_2026_Prediction/blob/main/pic/KNN/KNN3.png)
 
-| |
-|:------------:|:------------:|
-| ![alt text][tree_odd_1] | ![alt text][tree_odd_2]  |
+### Logistic Regression
+The Logistic Regression Model was the third model to be trained. With cross validation, the model was trained. Also confusion matrix and certain statistics were calculated and printed.
 
-[tree_h2h_1]:pic/ex1/tree-h2h-form.png
-[tree_h2hd_2]:pic/ex2/tree-h2h-form.png
+<img alt="alt text" src="https://github.com/AhmetA97/FIFA_World_Cup_2026_Prediction/blob/main/pic/KNN/LR1.png"/>
 
+![alt text](https://github.com/AhmetA97/FIFA_World_Cup_2026_Prediction/blob/main/pic/KNN/LR2.png)
 
-3. __Squad-strength based model:__
+### Decision Tree
+Decision Tree was the third model trained. 70% of the dataset was used for training and 30% for testing. The model was trained with cross validation. And the Decision Tree was written. In the model below, as mentioned earlier, "1" represents a win, "2" represents a draw, and "3" represents a loss. Finally, the confusion matrix and statistics were printed.
 
+![alt text](https://github.com/AhmetA97/FIFA_World_Cup_2026_Prediction/blob/main/pic/KNN/DT1.png)
 
+![alt text](https://github.com/AhmetA97/FIFA_World_Cup_2026_Prediction/blob/main/pic/KNN/DT2.png)
 
-![](pic/ex2/tree-ss.png)
+### Random Forest
+Random Forest was the last model trained and was also used as the default model in match prediction stages. First, the model was trained with cross validation. Then the model, confusion matrix and some statistics were printed.
 
+![alt text](https://github.com/AhmetA97/FIFA_World_Cup_2026_Prediction/blob/main/pic/KNN/RF1.png)
 
+![alt text](https://github.com/AhmetA97/FIFA_World_Cup_2026_Prediction/blob/main/pic/KNN/RF2.png)
+
+![alt text](https://github.com/AhmetA97/FIFA_World_Cup_2026_Prediction/blob/main/pic/KNN/RF3.png)
+
+![alt text](https://github.com/AhmetA97/FIFA_World_Cup_2026_Prediction/blob/main/pic/KNN/RF4.png)
 
 ## Evaluation Criteria
 Models are evaluated on these criteria which are carried out for each label "win", "lose" and "draw"
