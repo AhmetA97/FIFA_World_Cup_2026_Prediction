@@ -27,8 +27,8 @@ Check the [Full Report](https://github.com/AhmetA97/FIFA_World_Cup_2026_Predicti
 
 # Project Structure
 1. __EDA__: Data Exploratory Analysis
-2. __LE__: saved model for Label Encoder
-3. __data__: completed dataset
+2. __DM__: Data Modeling (KNN, Decision Trees)
+3. __Visualisation__: Visualisation
 4. __save_model__: saved Machine Learning model after training
 
 # Data
