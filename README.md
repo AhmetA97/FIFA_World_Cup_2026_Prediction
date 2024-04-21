@@ -1,3 +1,9 @@
+Creating a well-structured README is crucial for effectively communicating your project's purpose, functionality, and usage to potential collaborators and users. Here's a template for a README for World Cup 2026 winner prediction project::
+
+## World Cup 2026 Prediction
+
+![img_1.png](img_1.png)
+
 # Project Description
 __Objective__:
 - Prediction of the winner of an international matches Prediction results are  "Win / Lose / Draw" or "goal difference"
