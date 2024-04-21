@@ -17,13 +17,6 @@ __Lifecycle__
 
 ![](https://github.com/AhmetA97/FIFA_World_Cup_2026_Prediction/blob/main/pic/life_cycle.png)
 
-# Report
-Check the [Full Report](https://github.com/AhmetA97/FIFA_World_Cup_2026_Prediction/blob/main/report.md) to gain more insight about this Project. The report contains:  
-- Exploratory Data Analysis: Investigate correlations, importance of features to results, hypothesis interesting
-- Methodology: How I carried out this project, which experiments I did.
-- Models: baseline model, logistic regression, random forest, gradient boosting tree, ADA boost tree, Neural Network.
-- Evaluation Criteria: F1, 10-fold cross validation accuracy
-- Results and Conclusion
 
 # Project Structure
 1. __EDA__: Data Exploratory Analysis
@@ -90,9 +83,6 @@ The dataset are from all international matches from 2000 - 2018, results, bet od
 # How to Run:
 
 ```
-python experiment1-W-D-L.py
-python experiment2-GoalDiff.py
-python experiment3-WorldCup.py
 ```
 ### K-Nearest Neighbor (KNN)
 K-Nearest Neighbor (KNN) was the second model trained. Necessary tests were applied to determine the K value and the highest accuracy value was obtained when "K=48". Next, the model was trained with cross validation. And the error rate table was extracted. Also confusion matrix and certain statistics were calculated and printed.
@@ -147,25 +137,3 @@ While there is always room for improvement, the success of this project highligh
 9. [Understand Bet odd format](https://www.pinnacle.com/en/betting-articles/educational/odds-formats-available-at-pinnacle-sports/ZWSJD9PPX69V3YXZ)
 10. [EURO 2020 bet odd](https://checkbestodds.com/football-odds/archive-euro-2020)
 
-# Task List
-__Complete__
-- [x] Add prediction for Matchday 2
-- [x] Add feature Importance
-- [x] Add feature of squad and player info
-- [x] Build a web crawler for Squad each team
-- [x] Build a web crawler for FIFA game player
-- [x] Add a simple classification based on "bet odd".
-- [x] Add feature group 1
-    - [x] Add h_win_diff, h_draw
-    - [x] Add rank_diff, title_diff
-- [x] Add features group 2
-- [x] Add features group 3
-- [x] Simple EDA and a small story
-- [x] Add features group 4
-- [x] Prepare framework for running classifiers
-- [x] Add evaluation metrics and plot
-  - [x] Add accuracy, precision, recall, F1
-  - [x] Add ROC curves
-- [x] Build a data without player rating and squad value
-- [x] Generate data and preform prediction for EURO 2016, ok now my story is more interesting
-- [x] Create more data, "teamA vs teamB -> win" is equivalent to "teamB vs teamA -> lose"
