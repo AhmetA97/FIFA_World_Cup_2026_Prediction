@@ -24,17 +24,6 @@ __Lifecycle__
 3. __Visualisation__: Visualisation
 4. __save_model__: saved Machine Learning model after training
 
-# Data
-### Data Source
-The dataset are from all international matches from 2000 - 2018, results, bet odds, ranking, squad strengths
-1. [FIFA World Cup 2022](https://www.kaggle.com/datasets/ashishmotwani/fifa-world-cup-2022)
-2. [International match 1872 - 2024](https://www.kaggle.com/datasets/martj42/international-football-results-from-1872-to-2017)
-3. [FIFA Ranking through Time](https://www.fifa.com/fifa-world-ranking/ranking-table/men/index.html)
-4. [Bet Odd](https://www.kaggle.com/austro/beat-the-bookie-worldwide-football-dataset/data)
-5. [Bet Odd 2](http://www.oddsportal.com)
-6. [Squad Strength - Sofia](https://sofifa.com/players/top)
-7. [Squad Strength - FIFA index](https://www.fifaindex.com/)
-
 ## Prerequisites
 List the prerequisites or dependencies users need to install and run your project. Include links to relevant documentation or resources.
 
@@ -69,6 +58,17 @@ streamlit run app.py
 3. Adjust input features in the sidebar to predict customer churn.
 
 4. Click the "Predict" button to see the prediction outcome.
+
+# Data
+### Data Source
+The dataset are from all international matches from 2000 - 2018, results, bet odds, ranking, squad strengths
+1. [FIFA World Cup 2022](https://www.kaggle.com/datasets/ashishmotwani/fifa-world-cup-2022)
+2. [International match 1872 - 2024](https://www.kaggle.com/datasets/martj42/international-football-results-from-1872-to-2017)
+3. [FIFA Ranking through Time](https://www.fifa.com/fifa-world-ranking/ranking-table/men/index.html)
+4. [Bet Odd](https://www.kaggle.com/austro/beat-the-bookie-worldwide-football-dataset/data)
+5. [Bet Odd 2](http://www.oddsportal.com)
+6. [Squad Strength - Sofia](https://sofifa.com/players/top)
+7. [Squad Strength - FIFA index](https://www.fifaindex.com/)
 
 
 ### Feature List
