@@ -35,7 +35,14 @@ The dataset are from all international matches from 2000 - 2018, results, bet od
 6. [Squad Strength - Sofia](https://sofifa.com/players/top)
 7. [Squad Strength - FIFA index](https://www.fifaindex.com/)
 
+## Prerequisites
+List the prerequisites or dependencies users need to install and run your project. Include links to relevant documentation or resources.
 
+Python (>=3.6)
+Streamlit
+Pandas
+Pickle
+Scipy
 
 [1]: https://www.kaggle.com/ahmedelnaggar/fifa-worldcup-2018-dataset/data
 [2]: https://www.kaggle.com/martj42/international-football-results-from-1872-to-2017/data
@@ -44,6 +51,25 @@ The dataset are from all international matches from 2000 - 2018, results, bet od
 [5]: http://www.oddsportal.com
 [6]: https://sofifa.com/players/top
 [7]: https://www.fifaindex.com/
+
+## Installation 
+
+Provide step-by-step instructions for users to install your project.
+
+git clone https://github.com/AhmetA97/FIFA_World_Cup_2026_Prediction
+
+## Usage
+
+1. Run the Streamlit app:
+``
+streamlit run app.py
+``
+2. Open the provided URL in your web browser.
+
+3. Adjust input features in the sidebar to predict customer churn.
+
+4. Click the "Predict" button to see the prediction outcome.
+
 
 ### Feature List
 - _*difference: team1 - team2_
