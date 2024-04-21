@@ -245,9 +245,6 @@ In this work, we do two main experiments, for each experiment we follow these pr
  - Second we perform k-fold cross validation to select the best parameters for each model based on some criteria.
  - Third we use the best model to do prediction on 10-fold cross validation (9 folds for training and 1 fold for testing) to achieve the mean of test error. This error is more reliable.
 
-__Experiment 1.__ Build classifiers for "Win / Lose / Draw" from 2005. Because feature "Bet Odds" are only available after 2005 so we only conduct experiments for this period of time.
-
-__Experiment 2.__ Build classifiers for "Goal Difference" for "World Cup" and "UEFA EURO" after 2010. The reason is because features of "Squad Strength" are not always available before 2010, some national teams does not have database of squad strength in FIFA Video Games. We know that tackling prediction with regression would be hard so we turn "Goal Difference" into classification by defining labels as follows:
 
  __Team A vs Team B__
  - "win_1": A wins with 1 goal differences
@@ -258,15 +255,14 @@ __Experiment 2.__ Build classifiers for "Goal Difference" for "World Cup" and "U
  - "lose_3": A wins with 3 or more goal differences
  - "draw_0": Draw
 
-__Experiment 3.__ In addition, we want to test how our trained model in __Experiment 2__ to predict the "Goal Difference" and "Win/Draw/Lose" of matches in World Cup 2022.
-
+_
 ## Models
 __Baseline Model:__
 In EDA part, we already investigate importance of features and see that odd, history, form and squad strength are all significant. Now we divide features into three groups: odd, h2h-form, squad strength and build "Baseline Models" based on these groups. To keep the baseline model simple, we set hyper-parameter of Decision Tree maximum depth = 2, maximum leaf nodes = 3
 
 1. __Odd-based model:__
 
-| Experiment 1 | Experiment 2 |
+ |
 |:------------:|:------------:|
 | ![alt text][tree_odd_1] | ![alt text][tree_odd_2]  |
 
@@ -275,7 +271,7 @@ In EDA part, we already investigate importance of features and see that odd, his
 
 2. __History-Form-based model:__
 
-| Experiment 1 | Experiment 2 |
+| |
 |:------------:|:------------:|
 | ![alt text][tree_odd_1] | ![alt text][tree_odd_2]  |
 
@@ -285,20 +281,10 @@ In EDA part, we already investigate importance of features and see that odd, his
 
 3. __Squad-strength based model:__
 
-For experiment 2
+
 
 ![](pic/ex2/tree-ss.png)
 
-__Enhanced Model:__
-
-To beat the baseline models we use all features and several machine algorithms as follows
-
-1. Logistic Regression
-2. Random Forest
-3. Gradient Boosting Tree
-4. ADA Boost Tree
-5. Neural Network
-6. LightGBM
 
 
 ## Evaluation Criteria
@@ -322,7 +308,7 @@ In a multi-class classification setup, micro-average is preferable if you suspec
 
 # Results
 
-__Experiment 1__ "Draw / Lose /Win"
+"Draw / Lose /Win"
 
 |           Model         |10-fold CV accuracy (%)| F1 - micro average | AUROC - micro average |
 |:-----------------------:|:---------------------:|:------------------:|:---------------------:|
@@ -335,9 +321,9 @@ __Experiment 1__ "Draw / Lose /Win"
 |Neural Net               |58.96|58.36|0.77|
 |LightGBM                 |59.49|60.28|0.78|
 
-Results from experiment 1 show little improvement between enhanced models and baseline models based on three evaluation criteria: 10-fold cross validation, F1 and Area Under Curve. A simple Odd-based Decision Tree is enough to classify Win/Draw/Lose . However, according to confusion matrix in [Appendix](#appendix) of experiment 1, we see that most of classifiers failed to classify "Draw" label, only Random Forest and Gradient Boosting Tree can predict "Draw" label, 74 hits and 29 hits respectively. Furthermore, as we mentioned, there is not much difference of classifiers in other criteria so our recommendation for classify "Win / Draw / Lose" is __"Gradient Boosting Tree"__ and __"Random Forest"__
+Results show little improvement between enhanced models and baseline models based on three evaluation criteria: 10-fold cross validation, F1 and Area Under Curve. A simple Odd-based Decision Tree is enough to classify Win/Draw/Lose . However, according to confusion matrix in [Appendix](#appendix), we see that most of classifiers failed to classify "Draw" label, only Random Forest and Gradient Boosting Tree can predict "Draw" label, 74 hits and 29 hits respectively. Furthermore, as we mentioned, there is not much difference of classifiers in other criteria so our recommendation for classify "Win / Draw / Lose" is __"Gradient Boosting Tree"__ and __"Random Forest"__
 
-__Experiment 2__ "Goal Difference"
+"Goal Difference"
 
 |           Model         |10-fold CV accuracy (%)| F1 - micro average | AUROC - micro average |
 |:-----------------------:|:---------------------:|:------------------:|:---------------------:|
@@ -351,9 +337,9 @@ __Experiment 2__ "Goal Difference"
 |Neural Net               |22.42|25.37|0.63|
 |LightGBM                 |25.62|20.89|0.57|
 
-In experiment 2, "Squad Strength" based Decision Tree tends to superior to other classifiers.
+ "Squad Strength" based Decision Tree tends to superior to other classifiers.
 
-__Experiment 3__ "Goal Difference" and "Win/Draw/Lose" in World Cup 2022
+ "Goal Difference" and "Win/Draw/Lose" in World Cup 2022
 
 |           Model         |"Goal Difference" Accuracy| "Win/Draw/Lose" Accuracy (%)| F1 - micro average |
 |:-----------------------:|:------------------------:|:---------------------------:|:------------------:|
