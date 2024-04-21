@@ -270,58 +270,6 @@ Random Forest was the last model trained and was also used as the default model 
 ![alt text](https://github.com/AhmetA97/FIFA_World_Cup_2026_Prediction/blob/main/pic/KNN/RF4.png)
 
 
-import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-sns.set_style('darkgrid')
-#%%
-# nation_position, club_position, player_positions
-df = pd.read_csv('data/players_22.csv', low_memory=False)
-
-# selecting column
-df = df[['short_name', 'age', 'nationality_name', 'overall', 'potential',
-         'club_name', 'value_eur', 'wage_eur', 'player_positions']]
-
-# selecting only one position
-df['player_positions'] = df['player_positions'].str.split(',', expand=True)[0]
-
-# dropping nan
-df.dropna(inplace=True)
-#%%
-players_missing_worldcup = ['K. Benzema', 'S. Mané', 'S. Agüero', 'Sergio Ramos', 'P. Pogba',
-                            'M. Reus', 'Diogo Jota', 'A. Harit', 'N. Kanté', 'G. Lo Celso', 'Piqué']
-
-# dropping injured players
-drop_index = df[df['short_name'].isin(players_missing_worldcup)].index
-df.drop(drop_index, axis=0, inplace=True)
-#%%
-teams_worldcup = [
-    'Qatar', 'Brazil', 'Belgium', 'France', 'Argentina', 'England', 'Spain', 'Portugal',
-    'Mexico', 'Netherlands', 'Denmark', 'Germany', 'Uruguay', 'Switzerland', 'United States', 'Croatia',
-    'Senegal', 'Iran', 'Japan', 'Morocco', 'Serbia', 'Poland', 'South Korea', 'Tunisia',
-    'Cameroon', 'Canada', 'Ecuador', 'Saudi Arabia', 'Ghana', 'Wales', 'Costa Rica', 'Australia'
-]
-
-# filtering only national teams in the world cup
-df = df[df['nationality_name'].isin(teams_worldcup)]
-#%%
-# best players
-df.sort_values(by=['overall', 'potential', 'value_eur'], ascending=False, inplace=True)
-
-
-## Distribution of players overall
-
-import numpy as np
-fig, ax = plt.subplots(figsize=(12, 5), tight_layout=True)
-
-sns.histplot(df, x='overall', binwidth=1)
-
-bins = np.arange(df['overall'].min(), df['overall'].max(), 1)
-plt.xticks(bins)
-plt.show()
-
-<img alt="img.png" src="img.png"/>
-
 # Conclusion
 
 In conclusion, our machine learning model was able to accurately predict the outcomes of World Cup matches with a high degree of accuracy. Through the use of various algorithms and techniques, we were able to analyze and process large amounts of data in order to make informed predictions about the outcomes of matches.
