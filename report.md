@@ -285,7 +285,7 @@ While there is always room for improvement, the success of this project highligh
 
 
 # Data Source
-The dataset are from all international matches from 2000 - 2018, results, bet odds, ranking, squad strengths
+The dataset are from all international matches from 2000 - 2024, results, bet odds, ranking, squad strengths
 1. [FIFA World Cup 2022](https://www.kaggle.com/datasets/ashishmotwani/fifa-world-cup-2022)
 2. [International match 1872 - 2024](https://www.kaggle.com/datasets/martj42/international-football-results-from-1872-to-2017)
 3. [FIFA Ranking through Time](https://www.fifa.com/fifa-world-ranking/ranking-table/men/index.html)
