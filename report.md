@@ -13,9 +13,8 @@
 4. [Methodology](#methodology): Details about your procedure
 5. [Models](#models)
 6. [Evaluation Criteria](#evaluation-criteria)
-7. [Results](#results)
-8. [Conclusion](#conclusion)
-9. [References](#references)
+7. [Conclusion](#conclusion)
+8. [References](#references)
 
 # Introduction
 
@@ -25,7 +24,7 @@ In this work, we compare 9 different modeling approaches for the soccer matches 
 
 __Objective__:
 - Prediction of the winner of an international matches Prediction results are  "Win / Lose / Draw" or "goal difference"
-- Apply the model to predict the result of FIFA world cup 2022.
+- Apply the model to predict the result of FIFA world cup 2026.
 
 
 __Lifecycle__
