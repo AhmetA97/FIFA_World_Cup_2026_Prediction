@@ -71,40 +71,6 @@ The dataset are from all international matches from 2000 - 2018, results, bet od
 7. [Squad Strength - FIFA index](https://www.fifaindex.com/)
 
 
-### Feature List
-- _*difference: team1 - team2_
-- _*form: performance in 10 recent matches_
-
-| Feature Name  | Description              | Source |
-|:-------------:|:------------------------:|:------:|
-| team_1        | Nation Code (e.g US, NZ)      | [1] & [2] |
-| team_2        | Nation Code  (e.g US, NZ)     | [1] & [2] |
-| date          | Date of match yyyy - mm - dd  | [1] & [2] |
-| tournament    | Friendly,EURO, AFC, FIFA WC   | [1] & [2] |
-| h_win_diff    | Head2Head: win difference      |   [2]   |
-| h_draw        | Head2Head: number of draw      |   [2]    |
-| form_diff_goalF | Form: difference in "Goal For" |   [2]   |
-| form_diff_goalA | Form: difference in "Goal Against" |   [2]    |
-| form_diff_win   | Form: difference in number of win  |   [2]    |
-| form_diff_draw  | Form: difference in number of draw |   [2]    |
-| odd_diff_win    | Betting Odd: difference bet rate for win  | [4] & [5] |
-| odd_draw        | Betting Odd: bet rate for draw            | [4] & [5] |
-| game_diff_rank  | Squad Strength: difference in FIFA Rank   | [3] |
-| game_diff_ovr   | Squad Strength: difference in Overall Strength  | [6] |
-|game_diff_attk   | Squad Strength: difference in Attack Strength   | [6] |
-|game_diff_mid    | Squad Strength: difference in Midfield Strength | [6] |
-|game_diff_def    | Squad Strength: difference in Defense Strength  | [6] |
-|game_diff_prestige | Squad Strength: difference in prestige        | [6] |
-|game_diff_age11    | Squad Strength: difference in age of 11 starting players  | [6] |
-|game_diff_ageAll   | Squad Strength: difference in age of all players          | [6] |
-|game_diff_bup_speed| Squad Strength: difference in Build Up Play Speed         | [6] |
-|game_diff_bup_pass | Squad Strength: difference in Build Up Play Passing       | [6] |
-|game_diff_cc_pass  | Squad Strength: difference in Chance Creation Passing     | [6] |
-|game_diff_cc_cross | Squad Strength: difference in Chance Creation Crossing    | [6] |
-|game_diff_cc_shoot | Squad Strength: difference in Chance Creation Shooting    | [6] |
-|game_diff_def_press| Squad Strength: difference in Defense Pressure            | [6] |
-|game_diff_def_aggr | Squad Strength: difference in Defense Aggression          | [6] |
-|game_diff_def_teamwidth  | Squad Strength: difference in Defense Team Width    | [6] |
 
 
 
